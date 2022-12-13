@@ -1,14 +1,19 @@
 #include "main.h"
 
 /**
- * _islower - prints wether the parameter is lowercase or not
- * @c: input character to be checked
+ * print_sign - prints wether the parameter is lowercase or not
+ * @n: input character to be checked
  *
  * Return: Always 0.
  */
-int _islower(int c)
+int print_sign(int n)
 {
-	if (c >= 97 && c <= 122)
+	if (n > 0)
+		_putchar('+');
 		return (1);
+	elif (n < 0)
+		_putchar('-');
+		return (-1);
+	_putchar('0');
 	return (0);
 }
