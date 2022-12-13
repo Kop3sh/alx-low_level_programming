@@ -2,7 +2,6 @@
 
 /**
  * jack_bauer - prints wether the parameter is lowercase or not
- * @n: input character to be checked
  *
  * Return: Always 0.
  */
