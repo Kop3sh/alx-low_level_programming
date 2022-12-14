@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table - prints the 9 multiplication table
+ * print_times_table - prints the 9 multiplication table
  * @n: input table to be calculated
  *
  * Return: Always 0.
