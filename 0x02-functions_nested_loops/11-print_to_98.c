@@ -53,7 +53,7 @@ void print_to_98(int n)
 				z = (d - k) / 10;
 
 				_putchar(z + '0');
-				_putcahr(k + '0');
+				_putchar(k + '0');
 				_putchar(u + '0');
 			}
 			if (n > 9)
