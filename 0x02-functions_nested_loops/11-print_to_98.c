@@ -38,10 +38,10 @@ void print_to_98(int n)
 	{
 		for (; n >= 98; n--)
 		{
-			if (z > 9)
+			if (n > 9)
 			{
-				u = z % 10;
-				d = (z - u) / 10;
+				u = n % 10;
+				d = (n - u) / 10;
 
 				_putchar(44);
 				_putchar(32);
