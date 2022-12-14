@@ -17,7 +17,7 @@ void print_to_98(int n)
 			if (n > 9)
 			{
 				u = n % 10;
-				d = (z - u) / 10;
+				d = (n - u) / 10;
 
 				_putchar(d + '0');
 				_putchar(u + '0');
