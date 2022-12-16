@@ -1,43 +1,36 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * fizzbuzz - print decimal numbers fromo 0 to 9
+ * main - Prints the numbers from 1-100, but for multiples of three,
+ *        Fizz is printed instead of the number, for multiples of five,
+ *        Buzz, and for multiples of both three and five, FizzBuzz.
  *
- * Return: void
+ * Return: Always 0.
  */
-void fizzbuzz(void)
+int main(void)
 {
-	int j;
+	int num;
 
-	for (j = 1; j <= 100; j++)
+	for (num = 1; num <= 100; num++)
 	{
-		if (j % 3 == 0 && j % 5 == 0)
-		{
-			_putchar('F');
-			_putchar('i');
-			_putchar('z');
-			_putchar('z');
-			_putchar('B');
-			_putchar('u');
-			_putchar('z');
-			_putchar('z');
-		} else if (j % 3 == 0)
-		{
-			_putchar('F');
-			_putchar('i');
-			_putchar('z');
-			_putchar('z');
-		} else if (j % 5 == 0)
-		{
-			_putchar('B');
-			_putchar('u');
-			_putchar('z');
-			_putchar('z');
-		} else
-		{
-			_putchar(j + '0');
-		}
-		_putchar(' ');
-	}
-}
+		if ((num % 3) == 0 && (num % 5) == 0)
+			printf("FizzBuzz");
 
+		else if ((num % 3) == 0)
+			printf("Fizz");
+
+		else if ((num % 5) == 0)
+			printf("Buzz");
+
+		else
+			printf("%d", num);
+
+		if (num == 100)
+			continue;
+		printf(" ");
+	}
+
+	printf("\n");
+
+	return (0);
+}
