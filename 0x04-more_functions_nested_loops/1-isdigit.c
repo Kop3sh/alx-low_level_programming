@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * _isupper - check uppercase letters
+ * _isdigit - check uppercase letters
  * @c: input character
  *
  *
