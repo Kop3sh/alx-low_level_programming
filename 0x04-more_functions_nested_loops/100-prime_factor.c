@@ -25,7 +25,7 @@ int main(void)
 		maxPrime = 3;
 		n = n / 3;
 	}
- 
+
 	for (i = 5; i <= sqrt(n); i += 6)
 	{
 		while (n % i == 0)
@@ -39,7 +39,7 @@ int main(void)
 			n = n / (i + 2);
 		}
 	}
- 
+
 	if (n > 4)
 		maxPrime = n;
 
