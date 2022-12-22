@@ -3,8 +3,8 @@
 
 /**
 * reverse_array - rests any number by reference to 98
-* @a: input by reference
-* @n: input by reference
+* @int: input by reference
+* @j: input by reference
 *
 * Return: void
 */
