@@ -5,7 +5,7 @@
 * string_toupper - rests any number by reference to 98
 * @str: input by reference
 *
-* Return: char 
+* Return: char
 */
 char *string_toupper(char *str)
 {
