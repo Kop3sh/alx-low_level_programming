@@ -5,15 +5,15 @@
 * cap_string - rests any number by reference to 98
 * @str: input by reference
 *
-* Return: char 
+* Return: char
 */
 char *cap_string(char *str)
 {
 	int i;
 
-	for (i = 0; str[i - 1] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (!(str[i - 1] >= 'a' && str[i] <= 'z'))
+		if (!(str[i] >= 'a' && str[i] <= 'z'))
 			continue;
 
 		if (str[i - 1] == ' ' ||
