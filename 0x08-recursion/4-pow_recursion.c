@@ -2,7 +2,8 @@
 
 /**
 * _pow_recursion - rests any number by reference to 98
-* @n: memroy pointed by s
+* @x: base
+* @y: exponent
 *
 * Return: void
 */
