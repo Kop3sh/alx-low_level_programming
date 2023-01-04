@@ -3,7 +3,7 @@
 /**
 * _find_prime - rests any number by reference to 98
 * @n: base
-* @org: base
+* @i: base
 *
 * Return: int
 */
