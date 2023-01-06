@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	y = atoi(argv[argc - 1]);
 
 
-	printf("%d", x * y);
+	printf("%d/n", x * y);
 
 	return (0);
 }
