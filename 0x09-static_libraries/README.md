@@ -1,1 +1,1 @@
-# c static and dynamic lib
+# c 3rd day
