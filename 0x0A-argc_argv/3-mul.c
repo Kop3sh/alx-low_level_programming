@@ -10,18 +10,19 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, prod = 0;
+	int x, y;
 
 	if (argc != 3)
 	{
 		printf("Error");
 		return (1);
 	}
+	
+	x = atoi(argv[1]);
+	y = atoi(argv[argc - 1]);
 
-	for (i = 1; i < argc; i++)
-		prod = prod * atoi(argv[i]);
 
-	printf("%d", prod);
+	printf("%d", x * y);
 
 	return (0);
 }
