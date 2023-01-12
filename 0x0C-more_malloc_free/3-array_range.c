@@ -4,9 +4,8 @@
 
 /**
 * array_range - rests any number by reference to 98
-* @s1: memroy pointed by s
-* @s2: memroy pointed by s
-* @n: number of chars to be concatenaged
+* @min: memroy pointed by s
+* @max: memroy pointed by s
 *
 * Return: void
 */
@@ -17,7 +16,6 @@ int *array_range(int min, int max)
 
 	if (min > max)
 		return (NULL);
-	
 
 	arr = malloc(diff * sizeof(arr));
 
